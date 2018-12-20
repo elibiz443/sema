@@ -1,6 +1,3 @@
 require "sema/version"
+require "sema/niaje"
 
-module Sema
-  class Error < StandardError; end
-  # Your code goes here...
-end

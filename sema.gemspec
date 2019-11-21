@@ -6,12 +6,12 @@ require "sema/version"
 Gem::Specification.new do |spec|
   spec.name          = "sema"
   spec.version       = Sema::VERSION
-  spec.authors       = ["Elly Ambet"]
-  spec.email         = ["ellyambet10@gmail.com"]
+  spec.authors       = ["elibiz443"]
+  spec.email         = ["elibiz443@gmail.com"]
 
   spec.summary       = "Simple Hello world gem in Swahili"
   spec.description   = "This gem displays Hello world in Swahili"
-  spec.homepage      = "http://rubygems.org/gems/alphcount"
+  spec.homepage      = "https://rubygems.org/gems/sema"
   spec.license       = "MIT"
 
 
@@ -19,10 +19,6 @@ Gem::Specification.new do |spec|
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
     spec.metadata["allowed_push_host"] = "RubyGems.org"
-
-    spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-    spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
     spec.metadata["homepage_uri"] = spec.homepage
     spec.metadata["source_code_uri"] = "https://github.com/elibiz443/sema"
@@ -45,4 +41,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
   spec.add_development_dependency "codelog", "~> 0.8.0"
+  
+  spec.add_dependency "minitest", "~> 5.0"
 end

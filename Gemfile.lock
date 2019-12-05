@@ -1,7 +1,8 @@
 PATH
   remote: .
   specs:
-    sema (0.1.0)
+    sema (0.1.1)
+      minitest (~> 5.0)
 
 GEM
   remote: https://rubygems.org/

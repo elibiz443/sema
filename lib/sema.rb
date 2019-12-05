@@ -1,3 +1,2 @@
 require "sema/version"
-require "sema/niaje"
-
+require "sema/habari"

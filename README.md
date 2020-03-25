@@ -20,8 +20,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In the terminal, write: irb
+From there, write: require 'sema'
+You should be able to see the following message:
 
+This is 'Hello World' in Swahili meaning; Hello world, How are you doing?
+Habari Dunia
+Mnaendelea Aje?
+ => true
+
+ That's it! Congrats!
+ 
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
